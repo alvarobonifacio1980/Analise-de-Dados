@@ -43,28 +43,11 @@ O trabalho evidencia um ponto importante em Ciência de Dados: **relação econ�
 
 ---
 
-### 3. PETR4 e USD/BRL — Machine Learning para previsão de volatilidade
-📓 `projetos/03_AM_PETR4_USDBRL.ipynb`
+### 3. Aprendizado de Máquina — repositório dedicado
 
-Trabalho desenvolvido na disciplina de **Aprendizado de Máquina** do PPGCC/UFJF.
+O estudo de **PETR4 e USD/BRL para previsão de volatilidade** foi transferido para o repositório público [Aprendizado-de-Maquina](https://github.com/alvarobonifacio1980/Aprendizado-de-Maquina), onde serão centralizados os trabalhos dessa disciplina e os futuros experimentos de séries temporais e aprendizado profundo.
 
-O experimento amplia a investigação anterior e compara diferentes representações e modelos para previsão da volatilidade futura.
-
-Principais elementos:
-- PETR4 como ativo principal;
-- USD/BRL como segunda série econômica e variável externa;
-- seleção de atributos exclusivamente no conjunto de desenvolvimento;
-- divisão temporal entre desenvolvimento e teste;
-- `TimeSeriesSplit` com *gap*;
-- regressão linear;
-- Support Vector Regression (SVR);
-- Random Forest;
-- ensembles simples e ponderados;
-- análise de importância de atributos;
-- testes de sensibilidade a sementes;
-- comparação com baseline de volatilidade histórica.
-
-O notebook preserva o conjunto de teste final para avaliação fora da etapa de seleção de modelos.
+[Ver o notebook original de AM](https://github.com/alvarobonifacio1980/Aprendizado-de-Maquina/blob/main/01_previsao_volatilidade/03_AM_PETR4_USDBRL.ipynb)
 
 ---
 
@@ -101,8 +84,7 @@ Conceitos aplicados:
 Analise-de-Dados/
 ├── projetos/
 │   ├── 01_ETL_EDA_Dados_Clinicos.ipynb
-│   ├── 02_MD_PETR4_Brent_OVX.ipynb
-│   └── 03_AM_PETR4_USDBRL.ipynb
+│   └── 02_MD_PETR4_Brent_OVX.ipynb
 ├── data/
 │   └── raw/
 ├── src/
