@@ -90,6 +90,19 @@ Entre os tópicos investigados estão:
 
 ---
 
+## Como reproduzir os estudos
+
+Requer Python 3.11+ e acesso às fontes de dados quando o notebook utilizar séries adquiridas online. A partir da raiz do repositório:
+
+```bash
+python -m pip install -r requirements.txt
+python -m jupyter notebook
+```
+
+Abra o notebook desejado em `projetos/` e execute suas células na ordem apresentada. As bases didáticas utilizadas no estudo de ETL estão em `data/raw/`. As imagens incluídas neste README são as saídas originais dos notebooks, não resultados reprocessados nesta atualização.
+
+**Dados e responsabilidade:** os arquivos didáticos não devem ser interpretados como registros clínicos reais. Antes de reutilizar os CSVs fora deste portfólio, verifique a licença e a proveniência da fonte original. O estudo da PETR4 depende de dados históricos e das regras temporais explicitadas no próprio notebook.
+
 ## Tecnologias
 
 `Python` · `Pandas` · `NumPy` · `Scikit-learn` · `Matplotlib` · `Jupyter Notebook` · `SQL`
