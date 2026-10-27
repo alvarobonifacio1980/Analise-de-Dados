@@ -141,3 +141,7 @@ Analise-de-Dados/
 ---
 
 Este repositório é atualizado à medida que novos experimentos atingem maturidade suficiente para publicação.
+
+## Licenciamento e dados
+
+Os notebooks e scripts estão públicos para estudo e avaliação, mas **ainda não há licença de reutilização definida para o código**. Os CSVs possuem proveniência e condições de uso próprias, que precisam ser confirmadas antes de redistribuição em novos projetos; a publicação neste repositório não altera esses direitos.
