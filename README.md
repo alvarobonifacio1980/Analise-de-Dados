@@ -4,6 +4,26 @@ Repositório de projetos selecionados em **Data Analysis, Data Science, Machine 
 
 O objetivo é reunir estudos reproduzíveis e tecnicamente documentados, com atenção a preparação de dados, validação, prevenção de *data leakage*, comparação com baselines e interpretação responsável dos resultados.
 
+## Resultados e visualizações
+
+Os gráficos a seguir foram **extraídos das saídas originais dos notebooks publicados**, sem simulação de dados nem reprocessamento das análises.
+
+### ETL e exploração de dados clínicos e demográficos
+
+| Distribuição das idades | Dispersão dos salários |
+| :---: | :---: |
+| ![Histograma das idades dos dados didáticos](assets/graficos/histograma_idades.png) | ![Boxplot dos salários dos dados didáticos](assets/graficos/boxplot_salarios.svg) |
+
+**Interpretação:** o histograma permite analisar a distribuição etária da amostra; o boxplot evidencia dispersão e possíveis observações extremas na variável de renda. Esses indicadores ajudam a direcionar as decisões de preparação, mas não substituem a análise da origem dos valores.
+
+### PETR4, Brent e OVX — avaliação temporal
+
+![Comparação do RMSE dos modelos de previsão de volatilidade](assets/graficos/rmse_modelos.png)
+
+**Interpretação:** a comparação entre o baseline e modelos com variáveis próprias e externas evidencia que incluir Brent ou OVX não implica, por si só, ganho preditivo. A avaliação deve considerar as janelas temporais e a estabilidade fora da amostra.
+
+[Notebook de ETL/EDA](projetos/01_ETL_EDA_Dados_Clinicos.ipynb) · [Notebook PETR4/Brent/OVX](projetos/02_MD_PETR4_Brent_OVX.ipynb)
+
 ## Projetos
 
 ### 1. ETL e análise exploratória de dados clínicos e demográficos
