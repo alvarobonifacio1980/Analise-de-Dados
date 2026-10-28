@@ -1,23 +1,27 @@
-# Falsificações — Análise de dados no Power BI
+# Análise de Falsificações
 
-**Área:** exploração de dados agregados sobre falsificações.  
-**Papel no portfólio:** visualização de dados com diferentes níveis de detalhamento para acompanhamento gerencial.
+**Power BI | Análise Exploratória | Indicadores Geográficos**
 
-## Problema abordado
+## Visão geral
 
-Explorar a distribuição dos registros de falsificações por período, localização e características dos itens, organizando a consulta para níveis estratégico, analítico/tático e operacional.
+Dashboard para exploração de registros de falsificações, com análises por período, localização e características dos itens. A estrutura apresenta diferentes níveis de detalhamento, da visão gerencial até a consulta operacional.
 
-## Evidências extraídas do arquivo PBIX
+## Indicadores e análises
 
-- **4 páginas**: **Estratégico**, **Análitico/Tático**, **Operacional** e **Dica**.
-- **14 visuais** incluindo cartões, gráficos de colunas/barras/área, mapas, tabela e filtros.
-- A análise usa o campo **Quantidade** e segmentações por **Família**, **Denominação**, **Estado** e **Ano**.
-- A visão operacional combina família, denominação, quantidade e estado; a visão tática inclui filtros por ano e outras dimensões.
+- **Evolução temporal:** acompanhamento de quantidades por ano.
+- **Distribuição geográfica:** análise de registros por estado.
+- **Composição dos registros:** segmentação por família e denominação.
+- **Visão estratégica:** apresentação de indicadores agregados.
+- **Visões tática e operacional:** detalhamento dos registros para investigação dos dados.
 
-## O que o projeto demonstra
+## Estrutura do dashboard
 
-Capacidade de decompor uma análise gerencial em camadas, integrar análise geográfica e temporal e construir gráficos e filtros para investigação exploratória.
+O projeto conta com **quatro páginas**, organizadas em perspectivas estratégica, tática, operacional e de orientação de uso, com **14 elementos visuais** entre gráficos, mapas, indicadores, tabelas e filtros.
 
-**Limites da evidência:** não foram comprovadas a origem exata, a cobertura ou a qualidade dos dados; os gráficos não autorizam conclusões sobre incidência real de crimes sem avaliação de denominadores, vieses e proveniência.
+## Aplicações
 
-**Publicação:** documentação do case, sem alterar o dashboard ou disponibilizar bases não auditadas.
+Exploração de bases de registros, análise geográfica e temporal e apresentação de informações em diferentes níveis de decisão.
+
+**Tecnologias e recursos:** Power BI, análise exploratória de dados, mapas, gráficos comparativos e segmentações.
+
+[← Voltar aos projetos Power BI](../README.md)
