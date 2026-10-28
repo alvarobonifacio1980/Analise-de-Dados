@@ -2,6 +2,17 @@
 
 **Power BI | Análise Exploratória | Indicadores Geográficos**
 
+## Visualizações
+
+### Visão estratégica
+![Falsificações — indicadores de cédulas recolhidas, distribuição geográfica e evolução temporal](visao-estrategica.png)
+
+### Visão tática
+![Falsificações — seleção de denominações e evolução temporal por família](visao-tatica.png)
+
+### Visão operacional
+![Falsificações — tabela detalhada e distribuição por estado e família](visao-operacional.png)
+
 ## Visão geral
 
 Dashboard para exploração de registros de falsificações, com análises por período, localização e características dos itens. A estrutura apresenta diferentes níveis de detalhamento, da visão gerencial até a consulta operacional.
