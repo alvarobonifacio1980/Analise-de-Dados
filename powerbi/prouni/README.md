@@ -2,6 +2,14 @@
 
 **Power BI | Indicadores Educacionais | Análise Exploratória**
 
+## Visualizações
+
+### Visão geral
+![ProUni — indicadores de bolsas concedidas, modalidades e evolução anual](visao-geral.png)
+
+### Filtros e análises por curso
+![ProUni — segmentadores de período, perfil e modalidade com comparação por cursos](filtros-analise-por-curso.png)
+
 ## Visão geral
 
 Dashboard de análise de dados de bolsas educacionais, com recursos de consulta por período, instituição de ensino, curso, modalidade e perfil dos beneficiários.
