@@ -90,6 +90,14 @@ Entre os tópicos investigados estão:
 
 ---
 
+## Power BI — projetos complementares
+
+A experiência com Power BI está documentada como **competência complementar** à atuação principal em Python, análise de dados e inteligência artificial. Foram selecionados quatro relatórios já desenvolvidos, sem reformulação dos arquivos originais: **Dashboard Comercial** (indicadores executivos e análise de vendas), **Ranking de Estratégias** (indicadores quantitativos financeiros), **Falsificações** (análise temporal e geográfica) e **ProUni** (análise educacional).
+
+**[Consultar os projetos Power BI e suas evidências](powerbi/README.md)**
+
+---
+
 ## Como reproduzir os estudos
 
 Requer Python 3.11+ e acesso às fontes de dados quando o notebook utilizar séries adquiridas online. A partir da raiz do repositório:
