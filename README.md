@@ -98,6 +98,14 @@ A experiência com Power BI está documentada como **competência complementar**
 
 ---
 
+## Tableau — análise de dados públicos
+
+O projeto **[Dengue no Brasil (1990–2014)](tableau/dengue-brasil/README.md)** apresenta uma análise histórica de casos de dengue com Tableau, desenvolvida durante a pós-graduação em Ciência de Dados e Mercado Financeiro (CDMF). O dashboard combina indicadores nacionais, séries temporais, mapa por estado e comparação entre regiões, com filtragem interativa.
+
+Esse case complementa os projetos de Power BI e demonstra aplicação de ferramentas de visualização de dados em diferentes domínios.
+
+---
+
 ## Como reproduzir os estudos
 
 Requer Python 3.11+ e acesso às fontes de dados quando o notebook utilizar séries adquiridas online. A partir da raiz do repositório:
