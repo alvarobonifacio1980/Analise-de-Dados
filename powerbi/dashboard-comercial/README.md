@@ -2,6 +2,17 @@
 
 **Power BI | Business Intelligence | Indicadores de Vendas**
 
+## Visualizações
+
+### Visão executiva
+![Dashboard Comercial — indicadores de receita, vendas, ticket médio, clientes e desempenho por marca](visao-geral.png)
+
+### Análise geográfica e perfil de clientes
+![Dashboard Comercial — vendas por país e faixa etária](vendas-pais-faixa-etaria.png)
+
+### Categorias de produtos e faixas etárias
+![Dashboard Comercial — faturamento por categoria e faixa etária](categorias-faixa-etaria.png)
+
 ## Visão geral
 
 Dashboard desenvolvido para acompanhar indicadores comerciais e explorar o desempenho de vendas por período, marca, localização e perfil de clientes. A solução reúne uma visão executiva dos principais resultados e análises detalhadas para apoiar a interpretação dos dados.
