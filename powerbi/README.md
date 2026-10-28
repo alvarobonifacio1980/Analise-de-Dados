@@ -6,6 +6,8 @@ Projetos de Business Intelligence voltados à organização, exploração e apre
 
 ### [Dashboard Comercial](dashboard-comercial/README.md)
 
+[![Dashboard Comercial — Visão executiva](dashboard-comercial/visao-geral.png)](dashboard-comercial/README.md)
+
 **Análise de vendas e desempenho comercial**
 
 Painel gerencial com indicadores de receita, produtos vendidos, ticket médio e clientes. Explora tendências mensais de faturamento, desempenho de marcas, distribuição geográfica das vendas e perfil dos consumidores.
@@ -13,6 +15,8 @@ Painel gerencial com indicadores de receita, produtos vendidos, ticket médio e 
 **Recursos:** indicadores de desempenho, gráficos temporais, mapas, segmentações e matrizes analíticas.
 
 ### [Ranking de Estratégias](ranking-estrategias/README.md)
+
+[![Ranking de Estratégias — Painel principal](ranking-estrategias/painel-principal.png)](ranking-estrategias/README.md)
 
 **Análise comparativa de estratégias do mercado financeiro**
 
@@ -22,6 +26,8 @@ Relatório voltado à comparação de resultados de estratégias de negociação
 
 ### [Falsificações](falsificacoes/README.md)
 
+[![Falsificações — Visão estratégica](falsificacoes/visao-estrategica.png)](falsificacoes/README.md)
+
 **Análise temporal e geográfica de registros de falsificações**
 
 Dashboard organizado em visões estratégica, tática e operacional, permitindo explorar quantidades por período, localização, família e denominação.
@@ -29,6 +35,8 @@ Dashboard organizado em visões estratégica, tática e operacional, permitindo 
 **Recursos:** mapas, indicadores, gráficos comparativos e filtros para diferentes níveis de análise.
 
 ### [ProUni](prouni/README.md)
+
+[![ProUni — Visão geral](prouni/visao-geral.png)](prouni/README.md)
 
 **Exploração de dados de bolsas educacionais**
 
