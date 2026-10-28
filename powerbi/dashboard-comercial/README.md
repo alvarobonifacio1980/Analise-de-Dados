@@ -1,6 +1,6 @@
 # Dashboard Comercial — Power BI
 
-**Status:** case em revisão para publicação no portfólio. Este é o nome oficial do projeto no repositório.
+**Status:** case descritivo publicado; dashboards originais preservados, sem previsão de retrabalho nesta fase. Este é o nome oficial do projeto no repositório.
 
 ## Objetivo
 
@@ -21,6 +21,12 @@ A análise visual foi realizada a partir de três capturas fornecidas pelo autor
 - Tabela com quantidades vendidas por país e total exibido de **2.117.268 unidades**.
 - Quantidade vendida por faixa etária (Adulto, Jovem e Sênior).
 - Matriz de faturamento cruzando categoria e faixa etária.
+
+## Estrutura confirmada no arquivo
+
+O relatório contém **4 páginas e 19 visuais**. A página inicial reúne quatro indicadores em cartões e visualizações de receita ao longo do tempo, vendas por gênero, faturamento por marca e continente. Outras páginas trazem quantidade por país e faixa etária, indicadores de devolução/vendas on-line e matriz de faturamento por categoria e faixa etária.
+
+Nos visuais do PBIX foram identificadas **medidas nomeadas**: `Fat total`, `Total de Vendas`, `ticket medio`, `Qtde_clientes`, `Total Devoluções`, `% devoluções` e `Vendas on line`. Também estão referenciadas as tabelas `Base Vendas`, `Cadastro de clientes`, `Cadastro de produtos` e `Cadastro de lojas`. Isso demonstra uso das medidas nos gráficos, mas **não valida as expressões DAX nem os relacionamentos**.
 
 ## Competências que o case pode demonstrar
 
@@ -46,4 +52,4 @@ A análise visual foi realizada a partir de três capturas fornecidas pelo autor
 
 Este projeto é candidato prioritário para demonstrar conhecimento aplicado em **Power BI, indicadores comerciais, visualização e análise de dados**, em conjunto com os demais cases do repositório. Para uma versão profissional, a apresentação deve explicar: pergunta de negócio, fonte de dados, preparação e modelagem, indicadores/DAX, principais descobertas e limitações.
 
-**Próxima versão:** inserir capturas finais revisadas, um dicionário conciso de métricas, descrição das tabelas e principais medidas DAX. Somente publicar o PBIX original após confirmar que não contém dados pessoais, segredos ou material redistribuído sem licença.
+**Escopo atual:** documentação do trabalho existente para evidenciar familiaridade prática com Power BI. Ajustes visuais, auditoria DAX e distribuição do PBIX ficam fora da prioridade atual. O foco principal do portfólio continua em Python, dados e IA.
