@@ -1,24 +1,27 @@
-# Ranking de Estratégias — Power BI
+# Ranking de Estratégias
 
-**Área:** análise de dados financeiros e avaliação de estratégias operacionais.  
-**Papel no portfólio:** aplicação complementar de Power BI em um domínio no qual há experiência prática em mercado financeiro, análise quantitativa e tecnologia.
+**Power BI | Mercado Financeiro | Análise Quantitativa**
 
-## Problema abordado
+## Visão geral
 
-Comparar estratégias de negociação e examinar seus resultados ao longo do tempo, reunindo indicadores operacionais em um relatório de análise visual.
+Dashboard dedicado à comparação de estratégias de negociação no mercado financeiro. O relatório organiza resultados operacionais e sua evolução temporal, permitindo analisar diferentes estratégias, ambientes e períodos.
 
-## Evidências extraídas do arquivo PBIX
+## Indicadores e análises
 
-- **1 página**, com **7 visuais**: gráfico de colunas, gráfico de área empilhada, gráfico de linhas, três tabelas e segmentador.
-- Comparação por **estratégia** e **ambiente**.
-- Campos presentes nos visuais: **Qtd Compra**, **Res. Intervalo Bruto**, **Res. Intervalo (%)**, **Acumulado Diário** e **Acumulado Diário Positivo**.
-- Visualizações com hierarquia temporal de **ano, mês e dia**; filtros de **mês, semana e dia da semana**.
-- Há uma estrutura apropriada para comparar desempenho e evolução temporal, mas a regra de cálculo dos indicadores não foi auditada neste levantamento.
+- **Comparação entre estratégias:** consulta de resultados por estratégia e ambiente.
+- **Resultados por intervalo:** visualização de resultados brutos e percentuais.
+- **Acumulados diários:** acompanhamento da evolução dos resultados ao longo do tempo.
+- **Quantidade de compras:** comparação de volumes operacionais.
+- **Análise temporal:** segmentações por ano, mês, semana e dia da semana.
 
-## O que o projeto demonstra
+## Estrutura do dashboard
 
-Construção de relatórios comparativos, análises de séries temporais financeiras, seleção de estratégias e uso de filtros operacionais no Power BI. O maior diferencial é o domínio de aplicação financeira — não se trata de uma afirmação de superioridade ou rentabilidade de alguma estratégia.
+O relatório contém **uma página com sete elementos visuais**, incluindo gráficos de linhas, colunas e área, tabelas comparativas e segmentação de dados.
 
-**Limites da evidência:** a extração do layout não permite concluir que as métricas representam valores líquidos, que incorporam custos e risco, ou que houve validação de backtest. Evitar alegações de rentabilidade comprovada sem metodologia publicada.
+## Aplicações
 
-**Publicação:** documentação do case, sem alterar o dashboard ou disponibilizar dados ou PBIX não auditados.
+Organização de indicadores quantitativos, comparação de estratégias operacionais e investigação da evolução temporal de resultados.
+
+**Tecnologias e recursos:** Power BI, análise de séries temporais, métricas financeiras e visualização comparativa.
+
+[← Voltar aos projetos Power BI](../README.md)
