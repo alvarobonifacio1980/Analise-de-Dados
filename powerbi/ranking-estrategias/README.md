@@ -2,6 +2,10 @@
 
 **Power BI | Mercado Financeiro | Análise Quantitativa**
 
+## Dashboard
+
+![Ranking de Estratégias — resultados por estratégia e evolução temporal dos indicadores operacionais](painel-principal.png)
+
 ## Visão geral
 
 Dashboard dedicado à comparação de estratégias de negociação no mercado financeiro. O relatório organiza resultados operacionais e sua evolução temporal, permitindo analisar diferentes estratégias, ambientes e períodos.
