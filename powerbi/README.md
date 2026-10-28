@@ -1,6 +1,11 @@
 # Power BI — curadoria de dashboards para portfólio
 
-Este diretório é reservado à **avaliação e publicação futura** de dashboards Power BI desenvolvidos em estudos de pós-graduação ou projetos independentes. **Nenhum painel foi incluído ainda.** A publicação dependerá de revisão dos arquivos originais e da licença dos dados.
+## Cases em avaliação
+
+- [Dashboard Comercial](dashboard-comercial/README.md) — análise visual inicial, indicadores e pontos de revisão documentados. Ainda sem publicação do PBIX ou imagens finais.
+
+
+Este diretório é reservado à **avaliação e publicação futura** de dashboards Power BI desenvolvidos em estudos de pós-graduação ou projetos independentes. **O primeiro case está documentado, mas nenhum arquivo PBIX foi publicado ainda.** A publicação dependerá de revisão dos arquivos originais e da licença dos dados.
 
 ## Critérios de seleção
 
