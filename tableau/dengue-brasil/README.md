@@ -2,6 +2,16 @@
 
 **Tableau | Análise Exploratória | Visualização Geográfica e Temporal**
 
+## Visualizações
+
+### Visão geral — Brasil
+
+![Dashboard Tableau — distribuição geográfica, casos por região e evolução anual da dengue no Brasil](../dengue-brasil-visao-geral.png)
+
+### Análise interativa — Região Sudeste
+
+![Dashboard Tableau — seleção da Região Sudeste e atualização do mapa, indicador e série temporal](../dengue-brasil-regiao-sudeste.png)
+
 ## Visão geral
 
 Dashboard desenvolvido durante a pós-graduação em Ciência de Dados e Mercado Financeiro (CDMF), na XP Educação, para explorar a evolução e a distribuição de registros de dengue no Brasil entre **1990 e 2014**.
