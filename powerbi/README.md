@@ -1,26 +1,43 @@
-# Power BI — Projetos de análise de dados
+# Power BI | Dashboards e Análise de Dados
 
-Portfólio complementar de relatórios desenvolvidos em Power BI. A principal atuação técnica apresentada no repositório continua em **Python, análise de dados, aprendizado de máquina e IA**. Esta seção documenta experiências práticas com indicadores, filtros, análise visual e comunicação de resultados de negócio.
+Projetos de Business Intelligence voltados à organização, exploração e apresentação de informações para apoiar decisões. Os dashboards abordam indicadores comerciais, análise financeira, dados educacionais e distribuição geográfica de registros.
 
 ## Projetos
 
-| Projeto | Evidências extraídas do PBIX | Destaque |
-|---|---|---|
-| [Dashboard Comercial](dashboard-comercial/README.md) | 4 páginas, 19 visuais, medidas nomeadas de faturamento, vendas, ticket médio, clientes e devoluções; tabelas de vendas, clientes, produtos e lojas | **Case principal de BI e indicadores comerciais** |
-| [Ranking de Estratégias](ranking-estrategias/README.md) | 1 página, 7 visuais; comparação de estratégias, ambiente, resultados brutos/percentuais, acumulados diários e filtros temporais | **Diferencial: dados financeiros e mercado** |
-| [Falsificações](falsificacoes/README.md) | 4 páginas, 14 visuais; visões estratégica, tática e operacional; recortes por estado, ano, família e denominação | Análise geográfica e por níveis de decisão |
-| [ProUni](prouni/README.md) | 2 páginas, 14 visuais; concessões de bolsas por ano, instituição, curso, modalidade e características dos beneficiários | Análise exploratória e segmentação |
+### [Dashboard Comercial](dashboard-comercial/README.md)
 
-**Seleção para destaque:** começar por **Dashboard Comercial** e **Ranking de Estratégias**. Os outros dois ampliam a diversidade temática, sem precisar competir por espaço com os principais projetos de Python e IA.
+**Análise de vendas e desempenho comercial**
 
-## O que foi verificado
+Painel gerencial com indicadores de receita, produtos vendidos, ticket médio e clientes. Explora tendências mensais de faturamento, desempenho de marcas, distribuição geográfica das vendas e perfil dos consumidores.
 
-Os arquivos `.pbix` foram examinados para extrair páginas, tipos de visualização, referências de tabelas, campos e nomes de medidas usados nas consultas visuais. Também foram consideradas três capturas fornecidas da apresentação do Dashboard Comercial.
+**Recursos:** indicadores de desempenho, gráficos temporais, mapas, segmentações e matrizes analíticas.
 
-**Limites:** a extração não substitui a execução no Power BI Desktop. Não foram auditadas a exatidão das fórmulas DAX, transformações Power Query, relações do modelo, licenças e permissões de redistribuição das fontes. Nenhuma performance ou conclusão financeira/causal é apresentada como comprovada apenas pelo layout do relatório.
+### [Ranking de Estratégias](ranking-estrategias/README.md)
 
-## Escopo atual
+**Análise comparativa de estratégias do mercado financeiro**
 
-Documentar os melhores elementos existentes, **sem refazer dashboards**. Os PBIX e as bases originais não estão distribuídos nesta seção. Caso alguma candidatura exija comprovação adicional, poderão ser incluídas capturas finais, versão segura do PBIX e uma explicação sucinta de modelo e DAX, após conferência de privacidade e licença.
+Relatório voltado à comparação de resultados de estratégias de negociação, combinando evolução temporal, resultados por intervalo e análises de desempenho acumulado.
 
-Em uma candidatura, a descrição apropriada é: **“Power BI: experiência prática na construção de dashboards gerenciais, indicadores e análises exploratórias; principal atuação em Python, dados e IA.”**
+**Recursos:** gráficos comparativos, séries temporais, tabelas de resultados e filtros por período e estratégia.
+
+### [Falsificações](falsificacoes/README.md)
+
+**Análise temporal e geográfica de registros de falsificações**
+
+Dashboard organizado em visões estratégica, tática e operacional, permitindo explorar quantidades por período, localização, família e denominação.
+
+**Recursos:** mapas, indicadores, gráficos comparativos e filtros para diferentes níveis de análise.
+
+### [ProUni](prouni/README.md)
+
+**Exploração de dados de bolsas educacionais**
+
+Painel para consulta e comparação de bolsas por ano de concessão, instituição, curso, modalidade de ensino e características dos beneficiários.
+
+**Recursos:** indicadores agregados, gráficos e segmentações para exploração dos dados.
+
+## Competências aplicadas
+
+**Power BI** · Dashboards gerenciais · Indicadores e métricas de negócio · Visualização de dados · Análise temporal · Segmentação · Exploração multidimensional
+
+Os projetos complementam os estudos de **Python, Ciência de Dados e Inteligência Artificial** apresentados neste [repositório](../README.md).
