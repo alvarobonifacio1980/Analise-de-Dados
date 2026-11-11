@@ -2,7 +2,7 @@
 
 Projetos independentes de **Análise de Dados, Business Intelligence e Python**, demonstrando preparação e integração de dados, exploração estatística, construção de indicadores, dashboards e modelagem preditiva.
 
-O foco é apresentar **problemas que os dados permitem investigar, abordagens utilizadas e evidências visuais**, com interpretações e limitações proporcionais a cada estudo.
+O portfólio reúne problemas práticos, métodos de análise, dashboards e resultados que ilustram a aplicação das tecnologias em diferentes cenários.
 
 ## Comece por aqui
 
@@ -19,7 +19,7 @@ O foco é apresentar **problemas que os dados permitem investigar, abordagens ut
 
 ## Dashboards e indicadores
 
-Os projetos de **Power BI** são entregas de visualização e exploração de dados, com páginas, indicadores e filtros descritos individualmente. As perguntas acima indicam possibilidades de análise; **não são alegações de resultados numéricos ou melhorias de negócio comprovadas**.
+Os dashboards de **Power BI** combinam indicadores gerenciais, filtros e análises por período, produto, região e perfil de clientes.
 
 [**Explorar os quatro dashboards Power BI e suas imagens**](powerbi/README.md) · [**Explorar o painel Tableau sobre dengue**](tableau/dengue-brasil/README.md)
 
@@ -41,7 +41,7 @@ O cenário e os **1.424 chamados são totalmente fictícios**, gerados por scrip
 
 ## Resultados e visualizações
 
-Os gráficos a seguir foram **extraídos das saídas originais dos notebooks publicados**, sem simulação de dados nem reprocessamento das análises.
+A seguir, alguns resultados visuais dos estudos em Python.
 
 ### ETL e exploração de dados clínicos e demográficos
 
@@ -49,13 +49,13 @@ Os gráficos a seguir foram **extraídos das saídas originais dos notebooks pub
 | :---: | :---: |
 | ![Histograma das idades dos dados didáticos](assets/graficos/histograma_idades.png) | ![Boxplot dos salários dos dados didáticos](assets/graficos/boxplot_salarios.svg) |
 
-**Interpretação:** o histograma permite analisar a distribuição etária da amostra; o boxplot evidencia dispersão e possíveis observações extremas na variável de renda. Esses indicadores ajudam a direcionar as decisões de preparação, mas não substituem a análise da origem dos valores.
+**Interpretação:** o histograma permite analisar a distribuição etária da amostra; o boxplot evidencia dispersão e possíveis observações extremas na variável de renda. Esses indicadores apoiam a identificação de padrões e o tratamento de dados.
 
 ### PETR4, Brent e OVX — avaliação temporal
 
 ![Comparação do RMSE dos modelos de previsão de volatilidade](assets/graficos/rmse_modelos.png)
 
-**Interpretação:** a comparação entre o baseline e modelos com variáveis próprias e externas evidencia que incluir Brent ou OVX não implica, por si só, ganho preditivo. A avaliação deve considerar as janelas temporais e a estabilidade fora da amostra.
+**Interpretação:** a comparação entre o baseline e modelos com variáveis próprias e externas evidencia que incluir Brent ou OVX não implica, por si só, ganho preditivo. A comparação inclui janelas temporais e avaliação fora da amostra.
 
 [Notebook de ETL/EDA](projetos/01_ETL_EDA_Dados_Clinicos.ipynb) · [Notebook PETR4/Brent/OVX](projetos/02_MD_PETR4_Brent_OVX.ipynb)
 
@@ -73,7 +73,7 @@ Principais tópicos:
 - organização modular de funções em Python;
 - preparação dos dados para análises posteriores.
 
-> Os dados utilizados neste case são dados didáticos do projeto original e não representam prontuários reais.
+> Estudo com base didática de dados clínicos e demográficos.
 
 ---
 
@@ -112,7 +112,7 @@ Os experimentos sobre a **variância realizada nos 60 minutos seguintes (RV60)**
 
 [**Consultar a coleção PETR4 intradiária**](https://github.com/alvarobonifacio1980/Aprendizado-de-Maquina/tree/main/estudos/petr4_intradiario)
 
-A investigação de **volatilidade diária** constitui um trabalho distinto, em andamento, sem extrapolar conclusões da base intradiária. Os resumos profissionais publicados não incluem os notebooks completos de treinamento.
+A investigação de **volatilidade diária** é uma linha independente, com horizonte de previsão e técnicas de avaliação próprios.
 
 ---
 
@@ -125,9 +125,9 @@ python -m pip install -r requirements.txt
 python -m jupyter notebook
 ```
 
-Abra o notebook desejado em `projetos/` e execute suas células na ordem apresentada. As bases didáticas utilizadas no estudo de ETL estão em `data/raw/`. As imagens incluídas neste README são as saídas originais dos notebooks, não resultados reprocessados nesta atualização.
+Abra o notebook desejado em `projetos/` e execute suas células na ordem apresentada. As bases didáticas do estudo de ETL estão em `data/raw/`.
 
-**Dados e responsabilidade:** os arquivos didáticos não devem ser interpretados como registros clínicos reais. Antes de reutilizar os CSVs fora deste portfólio, verifique a licença e a proveniência da fonte original. O estudo da PETR4 depende de dados históricos e das regras temporais explicitadas no próprio notebook.
+O estudo da PETR4 apresenta as fontes históricas e as regras de preparação temporal no notebook.
 
 ## Tecnologias
 
@@ -181,4 +181,4 @@ Este repositório é atualizado à medida que novos experimentos atingem maturid
 
 ## Licenciamento e dados
 
-Os notebooks e scripts estão públicos para estudo e avaliação, mas **ainda não há licença de reutilização definida para o código**. Os CSVs possuem proveniência e condições de uso próprias, que precisam ser confirmadas antes de redistribuição em novos projetos; a publicação neste repositório não altera esses direitos.
+Materiais do portfólio de autoria própria. Dados de terceiros seguem os termos de suas respectivas fontes.
