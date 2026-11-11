@@ -6,7 +6,7 @@
 
 Como transformar registros operacionais de serviços de TI em indicadores para gestão? Este projeto fictício permite avaliar **volume de chamados, prioridades, cumprimento de metas de SLA, backlog, satisfação e evolução temporal**.
 
-A proposta é demonstrar capacidade em **SQL aplicado à tomada de decisão e à organização de dados**. Não se trata de sistema real, nem utiliza dados de clientes ou organizações.
+O case utiliza **dados sintéticos de serviços de TI** para apresentar consultas orientadas à tomada de decisão.
 
 ![Evolução mensal de chamados fictícios](figuras/volume_mensal.svg)
 
@@ -65,12 +65,8 @@ Se quiser gerar a base novamente, remova **somente** o arquivo local `operacao_e
 - Separação entre **associação descritiva e causalidade**; não há inferência causal a partir das notas.
 - Dados simulados isolados do portfólio, gerador determinístico e testes automáticos.
 - Uso de parâmetros (`?`) nas operações de inserção em Python e separação entre código e dados, evitando concatenação direta de entradas em SQL.
-- Em produção, aplicar também controle de acesso por menor privilégio, proteção de credenciais, auditoria e política de backup; **essas camadas não são implementadas neste exemplo SQLite**.
+- Aplicação de restrições de integridade, índices e parametrização, com práticas de segurança no acesso aos dados.
 
-**Portabilidade:** as consultas se apoiam em conceitos SQL amplamente utilizados, mas há funções específicas do SQLite (`strftime`, `julianday` e `EXPLAIN QUERY PLAN`). Em PostgreSQL, MySQL ou Oracle, as funções temporais, a geração de identidade e a inspeção do plano de execução exigiriam adaptações para cada dialeto. **Não afirmamos compatibilidade não testada.**
-
-## Limites e responsabilidade
-
-Todo o conteúdo deste case — cenário, entidades, dados e scripts — foi elaborado como **exemplo independente e fictício**. Nenhuma base, consulta, estrutura, usuário, cliente ou credencial de sistemas profissionais anteriores foi reutilizada. As metas de SLA são hipotéticas, não representam compromissos reais de atendimento.
+**Portabilidade:** as consultas se apoiam em conceitos SQL amplamente utilizados, mas há funções específicas do SQLite (`strftime`, `julianday` e `EXPLAIN QUERY PLAN`). Em PostgreSQL, MySQL e Oracle, algumas funções temporais e ferramentas de inspeção têm sintaxes próprias.
 
 [← Voltar ao portfólio de Análise de Dados](../../README.md)
