@@ -2,6 +2,17 @@
 
 Projetos de Business Intelligence voltados à organização, exploração e apresentação de informações para apoiar decisões. Os dashboards abordam indicadores comerciais, análise financeira, dados educacionais e distribuição geográfica de registros.
 
+## O que os dashboards ajudam a investigar
+
+| Painel | Pergunta de análise | Indicadores e dimensões disponíveis |
+|---|---|---|
+| [Dashboard Comercial](dashboard-comercial/README.md) | Como evoluem as vendas e quais segmentos se destacam? | Receita, ticket médio, marcas, períodos, localização e perfil de clientes |
+| [Ranking de Estratégias](ranking-estrategias/README.md) | Como comparar estratégias por desempenho e período? | Resultados, acumulados, intervalos e segmentação temporal |
+| [Falsificações](falsificacoes/README.md) | Onde e quando se concentram registros e quais categorias predominam? | Período, estado, família e denominação |
+| [ProUni](prouni/README.md) | Como se distribuem as bolsas educacionais? | Ano, instituição, curso, modalidade e perfil dos beneficiários |
+
+**Apresentação profissional:** as perguntas descrevem recursos de exploração dos painéis. Não significam que uma relação causal ou um efeito gerencial tenha sido comprovado.
+
 ## Projetos
 
 ### [Dashboard Comercial](dashboard-comercial/README.md)
@@ -48,4 +59,4 @@ Painel para consulta e comparação de bolsas por ano de concessão, instituiç�
 
 **Power BI** · Dashboards gerenciais · Indicadores e métricas de negócio · Visualização de dados · Análise temporal · Segmentação · Exploração multidimensional
 
-Os projetos complementam os estudos de **Python, Ciência de Dados e Inteligência Artificial** apresentados neste [repositório](../README.md).
+Os painéis representam **projetos de BI e análise de dados**, ao lado das iniciativas em Python e Machine Learning disponíveis no [portfólio principal](../README.md).
