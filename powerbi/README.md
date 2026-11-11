@@ -11,8 +11,6 @@ Projetos de Business Intelligence voltados à organização, exploração e apre
 | [Falsificações](falsificacoes/README.md) | Onde e quando se concentram registros e quais categorias predominam? | Período, estado, família e denominação |
 | [ProUni](prouni/README.md) | Como se distribuem as bolsas educacionais? | Ano, instituição, curso, modalidade e perfil dos beneficiários |
 
-**Apresentação profissional:** as perguntas descrevem recursos de exploração dos painéis. Não significam que uma relação causal ou um efeito gerencial tenha sido comprovado.
-
 ## Projetos
 
 ### [Dashboard Comercial](dashboard-comercial/README.md)
