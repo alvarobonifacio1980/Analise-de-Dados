@@ -1,8 +1,30 @@
-# Portfólio de Análise de Dados, Machine Learning e Séries Temporais
+# Portfólio de Análise de Dados, BI e Séries Temporais
 
-Repositório de projetos selecionados em **Data Analysis, Data Science, Machine Learning e séries temporais**, desenvolvido como parte da evolução profissional e acadêmica de Álvaro Bonifácio.
+Projetos independentes de **Análise de Dados, Business Intelligence e Python**, demonstrando preparação e integração de dados, exploração estatística, construção de indicadores, dashboards e modelagem preditiva.
 
-O objetivo é reunir estudos reproduzíveis e tecnicamente documentados, com atenção a preparação de dados, validação, prevenção de *data leakage*, comparação com baselines e interpretação responsável dos resultados.
+O foco é apresentar **problemas que os dados permitem investigar, abordagens utilizadas e evidências visuais**, com interpretações e limitações proporcionais a cada estudo.
+
+## Comece por aqui
+
+| Área | Projeto | O que permite analisar |
+|---|---|---|
+| **BI comercial** | [Dashboard Comercial — Power BI](powerbi/dashboard-comercial/README.md) | Receita, ticket médio, desempenho por marca, região e perfil de clientes |
+| **BI gerencial e operacional** | [Falsificações — Power BI](powerbi/falsificacoes/README.md) | Distribuição temporal, geográfica e por denominação, em níveis estratégico, tático e operacional |
+| **Indicadores educacionais** | [ProUni — Power BI](powerbi/prouni/README.md) | Bolsas por período, curso, instituição, modalidade e perfil |
+| **Indicadores financeiros** | [Ranking de Estratégias — Power BI](powerbi/ranking-estrategias/README.md) | Comparação de resultados e evolução de estratégias |
+| **Dados públicos e visualização** | [Dengue no Brasil — Tableau](tableau/dengue-brasil/README.md) | Séries históricas e distribuição regional de casos |
+| **Python e ETL** | [Dados clínicos e demográficos — notebook](projetos/01_ETL_EDA_Dados_Clinicos.ipynb) | Integração de fontes, valores ausentes, distribuições e possíveis valores extremos |
+| **Séries temporais** | [PETR4, Brent e OVX — notebook](projetos/02_MD_PETR4_Brent_OVX.ipynb) | Se informações externas acrescentam capacidade preditiva à volatilidade |
+
+## Dashboards e indicadores
+
+Os projetos de **Power BI** são entregas de visualização e exploração de dados, com páginas, indicadores e filtros descritos individualmente. As perguntas acima indicam possibilidades de análise; **não são alegações de resultados numéricos ou melhorias de negócio comprovadas**.
+
+[**Explorar os quatro dashboards Power BI e suas imagens**](powerbi/README.md) · [**Explorar o painel Tableau sobre dengue**](tableau/dengue-brasil/README.md)
+
+[![Visão executiva do dashboard comercial em Power BI](powerbi/dashboard-comercial/visao-geral.png)](powerbi/dashboard-comercial/README.md)
+
+*Exemplo de painel: indicadores comerciais, evolução de receitas e segmentações.*
 
 ## Resultados e visualizações
 
@@ -24,7 +46,7 @@ Os gráficos a seguir foram **extraídos das saídas originais dos notebooks pub
 
 [Notebook de ETL/EDA](projetos/01_ETL_EDA_Dados_Clinicos.ipynb) · [Notebook PETR4/Brent/OVX](projetos/02_MD_PETR4_Brent_OVX.ipynb)
 
-## Projetos
+## Estudos com Python, ETL e séries temporais
 
 ### 1. ETL e análise exploratória de dados clínicos e demográficos
 📓 `projetos/01_ETL_EDA_Dados_Clinicos.ipynb`
@@ -45,7 +67,7 @@ Principais tópicos:
 ### 2. PETR4 × Brent × OVX — previsão de volatilidade
 📓 `projetos/02_MD_PETR4_Brent_OVX.ipynb`
 
-Estudo derivado das atividades de **Mineração de Dados** do Mestrado em Ciência da Computação.
+Estudo independente de dados financeiros, com avaliação temporal de modelos preditivos.
 
 Objetivo:
 avaliar se informações externas associadas ao mercado de petróleo acrescentam capacidade preditiva à volatilidade futura da PETR4.
@@ -65,44 +87,19 @@ O trabalho evidencia um ponto importante em Ciência de Dados: **relação econ�
 
 ### 3. Aprendizado de Máquina — repositório dedicado
 
-O estudo de **PETR4 e USD/BRL para previsão de volatilidade** foi transferido para o repositório público [Aprendizado-de-Maquina](https://github.com/alvarobonifacio1980/Aprendizado-de-Maquina), onde serão centralizados os trabalhos dessa disciplina e os futuros experimentos de séries temporais e aprendizado profundo.
+O estudo de **PETR4 e USD/BRL para previsão de volatilidade** está disponível no repositório público [Aprendizado-de-Maquina](https://github.com/alvarobonifacio1980/Aprendizado-de-Maquina), junto a estudos independentes de séries temporais e aprendizado profundo.
 
 [Ver o notebook original de AM](https://github.com/alvarobonifacio1980/Aprendizado-de-Maquina/blob/main/01_previsao_volatilidade/03_AM_PETR4_USDBRL.ipynb)
 
 ---
 
-### 4. Pesquisa em andamento — volatilidade intradiária da PETR4
+### 4. Estudos independentes de previsão da volatilidade da PETR4
 
-A linha atual de pesquisa do mestrado investiga a **previsão da volatilidade realizada nos próximos 60 minutos de negociação**, utilizando dados intradiários e comparando abordagens estatísticas, econométricas, Machine Learning e Deep Learning.
+Os experimentos sobre a **variância realizada nos 60 minutos seguintes (RV60)** foram organizados como uma coleção de três estudos resumidos: modelos históricos e Machine Learning, Deep Learning e ensembles com avaliação de robustez.
 
-O projeto permanece em desenvolvimento e, por isso, resultados intermediários ainda não são publicados neste repositório como conclusões definitivas.
+[**Consultar a coleção PETR4 intradiária**](https://github.com/alvarobonifacio1980/Aprendizado-de-Maquina/tree/main/estudos/petr4_intradiario)
 
-Entre os tópicos investigados estão:
-
-- construção e auditoria de dados intradiários;
-- volatilidade realizada;
-- baselines estatísticos;
-- Random Forest e XGBoost;
-- Deep Learning;
-- modelos híbridos e ensembles;
-- validação temporal;
-- QLIKE e outras métricas específicas de volatilidade.
-
----
-
-## Power BI — projetos complementares
-
-A experiência com Power BI está documentada como **competência complementar** à atuação principal em Python, análise de dados e inteligência artificial. Foram selecionados quatro relatórios já desenvolvidos, sem reformulação dos arquivos originais: **Dashboard Comercial** (indicadores executivos e análise de vendas), **Ranking de Estratégias** (indicadores quantitativos financeiros), **Falsificações** (análise temporal e geográfica) e **ProUni** (análise educacional).
-
-**[Consultar os projetos Power BI e suas evidências](powerbi/README.md)**
-
----
-
-## Tableau — análise de dados públicos
-
-O projeto **[Dengue no Brasil (1990–2014)](tableau/dengue-brasil/README.md)** apresenta uma análise histórica de casos de dengue com Tableau, desenvolvida durante a pós-graduação em Ciência de Dados e Mercado Financeiro (CDMF). O dashboard combina indicadores nacionais, séries temporais, mapa por estado e comparação entre regiões, com filtragem interativa.
-
-Esse case complementa os projetos de Power BI e demonstra aplicação de ferramentas de visualização de dados em diferentes domínios.
+A investigação de **volatilidade diária** constitui um trabalho distinto, em andamento, sem extrapolar conclusões da base intradiária. Os resumos profissionais publicados não incluem os notebooks completos de treinamento.
 
 ---
 
@@ -121,7 +118,9 @@ Abra o notebook desejado em `projetos/` e execute suas células na ordem apresen
 
 ## Tecnologias
 
-`Python` · `Pandas` · `NumPy` · `Scikit-learn` · `Matplotlib` · `Jupyter Notebook` · `SQL`
+`Python` · `Pandas` · `NumPy` · `Scikit-learn` · `Matplotlib` · `Jupyter Notebook` · `Power BI` · `Tableau` · `SQL`
+
+**Nota sobre SQL:** a competência é indicada no perfil, mas este repositório ainda não apresenta um case SQL executável; a evidência prática ficará para uma etapa específica do roadmap.
 
 Conceitos aplicados:
 
@@ -136,6 +135,13 @@ Analise-de-Dados/
 │   └── 02_MD_PETR4_Brent_OVX.ipynb
 ├── data/
 │   └── raw/
+├── powerbi/
+│   ├── dashboard-comercial/
+│   ├── ranking-estrategias/
+│   ├── falsificacoes/
+│   └── prouni/
+├── tableau/
+│   └── dengue-brasil/
 ├── src/
 │   ├── data_cleaning/
 │   └── data_loader/
