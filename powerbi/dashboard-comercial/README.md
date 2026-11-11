@@ -1,42 +1,65 @@
-# Dashboard Comercial
+# Case de Business Intelligence — Desempenho Comercial
 
-**Power BI | Business Intelligence | Indicadores de Vendas**
+**Power BI · Análise de Vendas · Indicadores Gerenciais · Visualização de Dados**
 
-## Visualizações
+## O desafio
 
-### Visão executiva
-![Dashboard Comercial — indicadores de receita, vendas, ticket médio, clientes e desempenho por marca](visao-geral.png)
+Transformar informações de **vendas, produtos, clientes e lojas** em uma visão gerencial que ajude a acompanhar resultados e explorar diferenças entre períodos, marcas, regiões e perfis de consumidores.
 
-### Análise geográfica e perfil de clientes
-![Dashboard Comercial — vendas por país e faixa etária](vendas-pais-faixa-etaria.png)
+Em vez de apresentar apenas tabelas com transações, o projeto organiza **indicadores executivos e perspectivas de análise** em um dashboard.
+
+## A entrega
+
+Painel desenvolvido no **Power BI**, com **quatro páginas e 19 elementos visuais**, incluindo indicadores, gráficos temporais, comparações por categoria e marca, mapa e matrizes. O conjunto analisado no relatório cobre o período **2022–2024**.
+
+### Visão executiva — desempenho geral
+
+![Visão executiva do dashboard com indicadores de faturamento, vendas, ticket médio e clientes](visao-geral.png)
+
+**O que observar:** indicadores resumidos facilitam uma leitura inicial dos resultados; os gráficos de evolução e a comparação por marcas permitem identificar períodos e segmentos que merecem investigação mais detalhada.
+
+### Distribuição geográfica e perfil de clientes
+
+![Análise de vendas por país e faixa etária de clientes](vendas-pais-faixa-etaria.png)
+
+**O que observar:** a distribuição geográfica e o cruzamento com faixas etárias ajudam a explorar diferenças entre mercados e grupos de consumidores. Uma concentração aparente demanda análise adicional antes de orientar decisões comerciais.
 
 ### Categorias de produtos e faixas etárias
-![Dashboard Comercial — faturamento por categoria e faixa etária](categorias-faixa-etaria.png)
 
-## Visão geral
+![Comparação do faturamento por categoria de produtos e faixa etária](categorias-faixa-etaria.png)
 
-Dashboard desenvolvido para acompanhar indicadores comerciais e explorar o desempenho de vendas por período, marca, localização e perfil de clientes. A solução reúne uma visão executiva dos principais resultados e análises detalhadas para apoiar a interpretação dos dados.
+**O que observar:** os cruzamentos entre produtos e perfis de clientes permitem formular hipóteses sobre a composição das vendas. O dashboard oferece visualização e filtros; os gráficos isoladamente não comprovam causa ou preferência individual.
 
-## Indicadores e análises
+## Perguntas de negócio e indicadores
 
-- **Receita, produtos vendidos, ticket médio e quantidade de clientes:** principais indicadores exibidos na visão executiva.
-- **Faturamento mensal:** acompanhamento da evolução das receitas ao longo de 2022 a 2024.
-- **Desempenho por marca:** comparação do faturamento entre marcas.
-- **Distribuição geográfica:** faturamento por continente e quantidade vendida por país.
-- **Perfil de clientes:** análises por gênero e faixa etária.
-- **Categorias de produtos:** comparação de faturamento entre categorias e grupos etários.
-- **Devoluções e vendas on-line:** indicadores complementares presentes no relatório.
+| Pergunta gerencial | Indicadores ou dimensões utilizados | Aplicação prática |
+|---|---|---|
+| Como o desempenho comercial varia no tempo? | Receita e faturamento mensal | Acompanhar períodos de crescimento ou retração e investigar sazonalidade |
+| Quais marcas e categorias têm maior participação? | Receita por marca e categoria; produtos vendidos | Priorizar análises de portfólio de produtos |
+| Como as vendas se distribuem por localidade? | Continente, país e faturamento | Comparar mercados e identificar diferenças regionais |
+| Quais grupos de clientes aparecem nas vendas? | Faixa etária e gênero | Examinar a composição dos segmentos atendidos |
+| Como acompanhar qualidade e canal de venda? | Devoluções e vendas on-line | Monitorar indicadores complementares de operação comercial |
+| Qual é a visão geral para acompanhamento gerencial? | Receita, total de vendas, ticket médio e clientes | Concentrar indicadores executivos em uma mesma interface |
 
-## Estrutura do dashboard
+Essas perguntas descrevem **o que pode ser analisado com o dashboard**. Não representam afirmações de crescimento, redução de custos ou outros efeitos comprovados.
 
-O projeto reúne **quatro páginas**, com **19 elementos visuais**, incluindo cartões de indicadores, gráficos de área, barras, rosca, mapa e matrizes.
+## Abordagem de análise
 
-Entre as métricas utilizadas estão faturamento total, total de vendas, ticket médio, quantidade de clientes, devoluções e vendas on-line. O relatório trabalha com informações de vendas e cadastros de clientes, produtos e lojas.
+1. **Organização dos indicadores:** leitura conjunta de vendas, clientes, produtos e lojas.
+2. **Visão executiva:** indicadores consolidados para identificar rapidamente pontos de atenção.
+3. **Exploração multidimensional:** comparações por tempo, marca, geografia, categoria e perfil de cliente.
+4. **Aprofundamento:** cruzamentos e filtros para passar de um indicador agregado a perspectivas mais específicas.
 
-## Aplicações
+## Competências demonstradas
 
-Monitoramento de desempenho comercial, acompanhamento da evolução de receitas, comparação de marcas e produtos e exploração de padrões de consumo.
+**Power BI · Business Intelligence · Construção de dashboards · Indicadores de desempenho (KPIs) · Análise comercial · Séries temporais · Segmentação de clientes · Visualização gerencial · Comunicação de dados.**
 
-**Tecnologias e recursos:** Power BI, modelagem e análise de dados, métricas de negócio e visualizações interativas.
+## Escopo e limitações
 
-[← Voltar aos projetos Power BI](../README.md)
+Este repositório disponibiliza **capturas do dashboard e a descrição das análises**. Não inclui o arquivo editável `.pbix`, o modelo de dados ou a base de origem. Portanto, o conteúdo demonstra a **estrutura visual e analítica entregue**, mas não permite auditar medidas, cálculos internos ou reproduzir o relatório.
+
+Os números ilustrados nas telas pertencem ao conjunto analisado no projeto, não a uma operação comercial atual. **Não são alegados resultados de negócio atribuíveis ao uso do painel.**
+
+---
+
+[← Voltar à coleção de dashboards Power BI](../README.md) · [← Voltar ao portfólio de Análise de Dados](../../README.md)
