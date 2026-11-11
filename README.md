@@ -15,6 +15,7 @@ O foco é apresentar **problemas que os dados permitem investigar, abordagens ut
 | **Dados públicos e visualização** | [Dengue no Brasil — Tableau](tableau/dengue-brasil/README.md) | Séries históricas e distribuição regional de casos |
 | **Python e ETL** | [Dados clínicos e demográficos — notebook](projetos/01_ETL_EDA_Dados_Clinicos.ipynb) | Integração de fontes, valores ausentes, distribuições e possíveis valores extremos |
 | **Séries temporais** | [PETR4, Brent e OVX — notebook](projetos/02_MD_PETR4_Brent_OVX.ipynb) | Se informações externas acrescentam capacidade preditiva à volatilidade |
+| **SQL e gestão de TI** | [Gestão de Serviços de TI — SQL aplicado](sql/operacao_servicos_ti/README.md) | Como transformar chamados fictícios em indicadores de SLA, backlog, demanda e satisfação |
 
 ## Dashboards e indicadores
 
@@ -25,6 +26,18 @@ Os projetos de **Power BI** são entregas de visualização e exploração de da
 [![Visão executiva do dashboard comercial em Power BI](powerbi/dashboard-comercial/visao-geral.png)](powerbi/dashboard-comercial/README.md)
 
 *Exemplo de painel: indicadores comerciais, evolução de receitas e segmentações.*
+
+## SQL aplicado — Gestão de Serviços de TI
+
+Estudo de caso independente com **SQL, modelagem relacional e indicadores gerenciais de serviços de TI**. O projeto apresenta dez consultas executáveis, incluindo `JOIN`, CTEs, funções de janela, rankings, agregações, *views* e inspeção de planos de execução.
+
+O cenário e os **1.424 chamados são totalmente fictícios**, gerados por script. Os resultados documentados demonstram como investigar volume de demanda, cumprimento de metas ilustrativas de SLA, backlog e satisfação.
+
+[**Consultar o case de SQL, suas consultas e resultados**](sql/operacao_servicos_ti/README.md) · [**Ver a interpretação das consultas**](sql/operacao_servicos_ti/RESULTADOS.md)
+
+![Evolução mensal do volume de chamados fictícios](sql/operacao_servicos_ti/figuras/volume_mensal.svg)
+
+---
 
 ## Resultados e visualizações
 
@@ -120,7 +133,7 @@ Abra o notebook desejado em `projetos/` e execute suas células na ordem apresen
 
 `Python` · `Pandas` · `NumPy` · `Scikit-learn` · `Matplotlib` · `Jupyter Notebook` · `Power BI` · `Tableau` · `SQL`
 
-**Nota sobre SQL:** a competência é indicada no perfil, mas este repositório ainda não apresenta um case SQL executável; a evidência prática ficará para uma etapa específica do roadmap.
+**SQL demonstrado:** consultas e indicadores gerenciais com dados fictícios, acompanhados de geração automatizada e testes no [case de Gestão de Serviços de TI](sql/operacao_servicos_ti/README.md).
 
 Conceitos aplicados:
 
@@ -142,6 +155,8 @@ Analise-de-Dados/
 │   └── prouni/
 ├── tableau/
 │   └── dengue-brasil/
+├── sql/
+│   └── operacao_servicos_ti/
 ├── src/
 │   ├── data_cleaning/
 │   └── data_loader/
