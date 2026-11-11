@@ -30,7 +30,7 @@ A análise reúne indicadores nacionais, comparações regionais, distribuição
 
 O projeto foi desenvolvido no **Tableau** e contém um painel principal composto por **cinco planilhas**: `Linha`, `Mapa`, `Pizza`, `Regiao` e `Total de casos`.
 
-Nas capturas apresentadas, o indicador nacional totaliza **9.216.989 casos** no intervalo exibido, enquanto a seleção da **Região Sudeste** apresenta **4.223.725 casos**. Os números ilustram o conjunto de dados utilizado no exercício, não estimativas epidemiológicas atuais.
+Nas capturas apresentadas, o indicador nacional totaliza **9.216.989 casos** no intervalo exibido, enquanto a seleção da **Região Sudeste** apresenta **4.223.725 casos**. Esses valores correspondem ao período histórico analisado.
 
 ## Aplicações
 
