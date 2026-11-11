@@ -1,7 +1,6 @@
 # Resultados — base 100% fictícia
 
-Resultados obtidos **executando as 10 consultas SQL** sobre dados sintéticos gerados localmente.
-Não são indicadores reais de uma organização. Os valores servem para demonstrar consultas, leitura de dados e raciocínio analítico.
+Resultados das **10 consultas SQL executadas sobre dados sintéticos**, com indicadores de atendimento e gestão de serviços.
 
 **Escala:** 1424 chamados simulados; 65 abertos no corte de 01/10/2026; 835 avaliações associadas.
 
@@ -135,4 +134,4 @@ Não são indicadores reais de uma organização. Os valores servem para demonst
 - **SLA:** a taxa usa somente chamados resolvidos; chamados abertos compõem o backlog e não o denominador de cumprimento.
 - **Períodos:** datas e janelas pertencem exclusivamente à simulação de junho a setembro de 2026.
 - **Plano de execução:** o resultado do `EXPLAIN QUERY PLAN` pode variar conforme a versão do SQLite e o tamanho da base.
-- **Escopo:** os exemplos demonstram consultas e comunicação de indicadores, sem substituir sistemas operacionais, políticas de segurança ou um banco de produção.
+
