@@ -22,13 +22,13 @@ Painel desenvolvido no **Power BI**, com **quatro páginas e 19 elementos visuai
 
 ![Análise de vendas por país e faixa etária de clientes](vendas-pais-faixa-etaria.png)
 
-**O que observar:** a distribuição geográfica e o cruzamento com faixas etárias ajudam a explorar diferenças entre mercados e grupos de consumidores. Uma concentração aparente demanda análise adicional antes de orientar decisões comerciais.
+**O que observar:** a distribuição geográfica e o cruzamento com faixas etárias ajudam a explorar diferenças entre mercados e grupos de consumidores. 
 
 ### Categorias de produtos e faixas etárias
 
 ![Comparação do faturamento por categoria de produtos e faixa etária](categorias-faixa-etaria.png)
 
-**O que observar:** os cruzamentos entre produtos e perfis de clientes permitem formular hipóteses sobre a composição das vendas. O dashboard oferece visualização e filtros; os gráficos isoladamente não comprovam causa ou preferência individual.
+**O que observar:** os cruzamentos entre produtos e perfis de clientes permitem formular hipóteses sobre a composição das vendas. 
 
 ## Perguntas de negócio e indicadores
 
@@ -41,8 +41,6 @@ Painel desenvolvido no **Power BI**, com **quatro páginas e 19 elementos visuai
 | Como acompanhar qualidade e canal de venda? | Devoluções e vendas on-line | Monitorar indicadores complementares de operação comercial |
 | Qual é a visão geral para acompanhamento gerencial? | Receita, total de vendas, ticket médio e clientes | Concentrar indicadores executivos em uma mesma interface |
 
-Essas perguntas descrevem **o que pode ser analisado com o dashboard**. Não representam afirmações de crescimento, redução de custos ou outros efeitos comprovados.
-
 ## Abordagem de análise
 
 1. **Organização dos indicadores:** leitura conjunta de vendas, clientes, produtos e lojas.
@@ -53,12 +51,6 @@ Essas perguntas descrevem **o que pode ser analisado com o dashboard**. Não rep
 ## Competências demonstradas
 
 **Power BI · Business Intelligence · Construção de dashboards · Indicadores de desempenho (KPIs) · Análise comercial · Séries temporais · Segmentação de clientes · Visualização gerencial · Comunicação de dados.**
-
-## Escopo e limitações
-
-Este repositório disponibiliza **capturas do dashboard e a descrição das análises**. Não inclui o arquivo editável `.pbix`, o modelo de dados ou a base de origem. Portanto, o conteúdo demonstra a **estrutura visual e analítica entregue**, mas não permite auditar medidas, cálculos internos ou reproduzir o relatório.
-
-Os números ilustrados nas telas pertencem ao conjunto analisado no projeto, não a uma operação comercial atual. **Não são alegados resultados de negócio atribuíveis ao uso do painel.**
 
 ---
 
